@@ -15,7 +15,7 @@ operator:
   deploymentName: mongodb-kubernetes-operator
 
   # Version of mongodb-kubernetes-operator
-  version: 0.7.0
+  version: 0.7.1
 
   # Uncomment this line to watch all namespaces
   # watchNamespace: "*"
@@ -41,7 +41,7 @@ versionUpgradeHook:
   version: 1.0.2
 readinessProbe:
   name: mongodb-kubernetes-readinessprobe
-  version: 1.0.4
+  version: 1.0.5
 mongodb:
   name: mongo
   repo: docker.io
